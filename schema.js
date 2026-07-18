@@ -1,11 +1,4 @@
-export default {
-  name: 'produs',
-  type: 'document',
-  title: 'Produse Meniu',
-  fields: [
-    { name: 'nume', type: 'string', title: 'Nume Preparat' },
-    { name: 'pret', type: 'number', title: 'Preț (RON)' },
-    { name: 'descriere', type: 'text', title: 'Descriere / Ingrediente' },
-    { name: 'imagine', type: 'image', title: 'Imagine Produs' }
-  ]
-}
+[
+  { "id": 1, "nume": "Pizza Diavola", "pret": 35, "ingrediente": "sos rosii, mozzarella, salam picant" },
+  { "id": 2, "nume": "Paste Carbonara", "pret": 38, "ingrediente": "bacon, smantana, parmezan" }
+]
